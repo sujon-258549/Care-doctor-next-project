@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import React, { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 
@@ -13,8 +14,8 @@ const Navbar = () => {
                         <div className="flex items-center justify-between">
                             <a href="#">
                                 <img
-                                    className="w-auto h-6 sm:h-7"
-                                    src="https://merakiui.com/images/full-logo.svg"
+                                    className="w-auto h-16"
+                                    src="./image/minlogo/Group 2.png"
                                     alt="Company Logo"
                                 />
                             </a>
@@ -101,8 +102,8 @@ const Navbar = () => {
                             <button>
                                 <FaShoppingBag></FaShoppingBag>
                             </button>
-                            <label  className="input flex items-center">
-                                <input  type="text" className="grow w-2 focus:w-32 border-none focus:z-50" />
+                            <label className="input flex items-center">
+                                <input type="text" className="grow w-2 focus:w-32 border-none focus:z-50" />
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 16 16"
@@ -114,11 +115,13 @@ const Navbar = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </label>
+                        </div>
                         <button className="btn btn-outline text-[18px] border-[#FF3811] text-[#FF3811] ">Appointment</button>
+                        <Link href={'/login'} className="btn  btn-outline text-[18px] border-[#FF3811] text-[#FF3811] ">Login</Link>
                     </div>
+                   
                 </div>
-            </div>
-        </nav>
+            </nav>
         </section >
     );
 };

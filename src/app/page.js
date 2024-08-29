@@ -8,11 +8,13 @@ import FeatureServises from "@/Component/Home/Feature_servises";
 import Tastimunial from "@/Component/Home/Tastimunial";
 
 export default function Home() {
+ 
   return (
     <>
       <section className="w-[90%] px-5 mx-auto my-10">
         <Slider></Slider>
       </section>
+     
 
       <section className="w-[90%] px-5 mx-auto my-10">
         <About></About>

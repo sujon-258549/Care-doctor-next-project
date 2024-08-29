@@ -1,0 +1,40 @@
+/* .servises {
+    background: url('../../public/image/images/banner/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: right;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.203), rgba(255, 255, 0, 0.201));
+} */
+
+
+.servises {
+    background-image:
+        linear-gradient(to right, #000000, #ffffff00),
+        url('../../public/image/images/banner/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: right;
+    border-radius: 10px;
+}
+.alloriduct {
+    background-image:
+        linear-gradient(to right, #000000, #ffffff00),
+        url('../../public/image/images/homeCarousel/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: right;
+    border-radius: 10px;
+}
+
+#trapezoid {
+    border-bottom: 40px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 250px;
+    text-align: center;
+}
